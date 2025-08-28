@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.logo a {
+    text-decoration: none ;
+    color:#22B5E3;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+
+.navbar a {
+    display: block;
+    padding:20px 20px ;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.navbar {
+   margin-right: 40px;
+    margin-top: 40px;
+}
+
+.navbar a:hover{
+    background: #171717 !important;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header{
+    height: 100vh !important;
+    background: url(image/Imagen1\ 1fondo.png) no-repeat center ;
+    background-size: 100% 100%;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    width: 100%;
+    z-index: 100;
+    background: url(image/Imagen1\ 1fondo.png);
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+p{
+    color: white;
+}
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #22B5E3;
+    color: white;
+    text-decoration: none;
+    background: #22B5E3;
+   
+}
+
+.btn:hover{
+    background: none;
+
+}
+
+.btn-home{
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
+
+}
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.sau {
+    height: 80vh !important;
+    background: url(image/crea\ tu\ perfil.png) no-repeat center ;
+    background-size: 100% 100%;
+
+}
+
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.box-container .box{
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.about{
+     height: 80vh !important;
+     background: url(image/ve\ contenido.png) no-repeat center ;
+     background-size: 100% 100%;
+}
+
+.price{
+    height: 80vh !important;
+    background: url(image/ve\ contenido.png) no-repeat center ;
+    background-size: 100% 100%;
+}
+
+.contact{
+    background: #171717;
+}
+.btn-home{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+h2{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+p{
+    font-size: 30px;
+}
